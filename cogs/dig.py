@@ -18,6 +18,7 @@ class Dig(commands.Cog):
 
     @commands.command()
     @commands.cooldown(2, 86400, commands.BucketType.user)
+    @commands.has_role("Admin")
     
     async def dig(self, ctx):
         treasure = [None, None, None, None, None, "Green Chibi", None, None, None, None, None, None, None, "Blue Chibi",  None, None, None, None, None, None, None, "Purple Chibi",  None, None, None, None, None, None, None, None, "Yellow Chibi",  None, None, None, None, None, None, None, None, "Red Chibi", ]

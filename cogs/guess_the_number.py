@@ -24,7 +24,7 @@ class Numberguess(commands.Cog, name = 'guess_the_number'):
 
     @commands.command()
     async def pc(self, ctx, x):
-        password = "StuP3fy!"
+        password = "Alph4r3X"
         x = str(x)
 
         if x in password:
